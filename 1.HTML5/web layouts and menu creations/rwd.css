@@ -1,0 +1,247 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: lightblue;
+}
+#header{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: yellow;
+}
+#header>h2{
+    
+    padding: 32px;
+}
+
+#menu{
+    width: 100%;
+    height: 50px;
+    background-color: tomato;
+}
+#menu>ol{
+    
+    padding: 10px;
+}
+
+#menu>ol>li>a{
+    text-decoration: none;
+    
+    
+}
+#menu li{
+    display: inline;
+    padding: 20px;
+    font-size: 25px;
+    padding: 100px;
+    
+}
+#menu>ol>li>a:hover{
+    background-color: violet;
+    border: 2px solid rgb(162, 226, 162);
+    border-radius: 40px;
+}
+#main{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(27, 6, 214);
+}
+#footer{
+    width: 100%;
+    height:100px;
+    background-color: rgb(214, 26, 26);
+}
+#section1{
+    width:100%;
+    height:500px;
+    background-color: turquoise;
+}
+.firstpart{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: lightblue;
+    
+    
+    
+}
+.secondpart{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(77, 199, 46);
+
+}
+#section2{
+    width: 100%;
+    height:300px;
+    background-color: violet;
+}
+.a21{
+    float: left;
+    width: 25%;
+    height: 300px;
+    background-color: green;
+}
+.a22{
+    float: left;
+    width: 25%;
+    height: 300px;
+    background-color: blue;
+}
+.a23{
+    float: left;
+    width: 25%;
+    height: 300px;
+    background-color: pink;
+}
+.a24{
+    float: left;
+    width: 25%;
+    height: 300px;
+    background-color: white;
+}
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color: teal;
+    text-align: center;
+    
+}
+#footer>p{
+    padding:40px;
+}
+.pk{
+    text-align: justify;
+}
+.tarak{
+    text-align: justify;
+}
+.mahesh{
+    text-align: justify;
+}
+.prabhas{
+    text-align: justify;
+}
+#maps{
+    width:100%;
+    height: 500px;
+    background-color: goldenrod;
+}
+
+@media only screen and (max-width: 600px) {
+    #header{
+        background-color: grey;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+    }
+   
+    .a21{
+        
+        width: 100%;
+        height: 300px;
+        background-color: rgb(87, 145, 87);
+    }
+    .a22{
+        
+        width: 100%;
+        height: 300px;
+        background-color: rgb(92, 92, 167);
+    }
+    .a23{
+        
+        width: 100%;
+        height: 300px;
+        background-color: rgb(166, 233, 10);
+    }
+    .a24{
+        
+        width: 100%;
+        height: 300px;
+        background-color: rgb(199, 15, 15);
+    }
+    .pk{
+        text-align: justify;
+    }
+    .tarak{
+        text-align: justify;
+    }
+    .mahesh{
+        text-align: justify;
+    }
+    .prabhas{
+        text-align: justify;
+    }
+    #header>h2{
+        font-size: 25px;
+        color: white;
+        
+    }
+    #header{
+        background-color: #08215c;
+    }
+    
+        #menu{
+            width: 100%;
+            height: 75vh;
+            background-color: rgb(71, 255, 154);
+        
+        }
+        #menu>ol>li{
+            font-size: 25px;
+        }
+        #menu li{
+            display: block;
+            padding: 38px;
+            font-size: 10px;
+            text-align: center;
+            
+        }
+        #menu>ol>li:hover{
+            border: 5px solid rgb(238, 245, 241);
+            border-radius: 55px;
+        }
+        #menu>ol>li>a:hover{
+            background-color: rgb(234, 236, 236);
+            border: 5px double rgb(175, 240, 189);
+            padding: 6px;
+        }
+        #menu>ol>li{
+            border-bottom: 2px solid  rgb(88, 90, 89);
+        }
+        
+    
+    .firstpart{
+        
+        width: 100%;
+        height: auto;
+        background-color: lightblue;
+        
+ }
+ .secondpart{
+     width: 100%;
+     height: 100%;
+
+ }
+ #maps>.sectionmaps>.metro{
+     width:100%;
+     height:auto;
+     background-color: honeydew;
+
+
+ }
+    #footer>p{
+        padding:21px;
+    }
+
+
+    }
+
+
+    
+    
